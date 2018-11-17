@@ -1,0 +1,142 @@
+.btn.btn-primary{
+	background-color: #43baff;
+}
+.card-header{
+	background-color: #43baff;
+	color: #fff;
+}
+.form{
+	margin-top: 15px;
+}
+.action-form{
+	display: flex;
+	justify-content: flex-end;
+}
+.thead{
+	background-color: #43baff;
+	color: #fff;
+}
+.nav-link{
+	background-color: #43baff;
+	border-radius: 2px;
+	margin: 0 1px;
+}
+.nav-link.no-color{
+	background-color: #fff;
+	color: #444;
+}
+.main-page{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 100%;
+}
+.container.auth{
+	padding: 100px 300px;
+}
+.container.app{
+	padding: 0 50px;
+	max-width: 100%;
+}
+.container.topnav{
+	padding: 5px 50px;
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+}
+.container.page{
+	padding: 40px;
+	padding-left: 320px;
+	width: 100%;
+}
+.container.page.form{
+	padding: 60px;
+}
+.sidenav{
+	width: 300px;
+	height: 100vh;
+	position: fixed;
+	padding-top: 50px;
+	background-color: #fff;
+	box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+.profile{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.profile i{
+	font-size: 100px;
+}
+.menu{
+	width: 100%;
+}
+.menu a{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	text-decoration: none;
+	border-bottom: .5px solid #ccc;
+	transition: .2s all;
+}
+.menu a:hover{
+	background-color: #43baff;
+	color: #fff;
+}
+.header-indicator{
+	margin-left: -20px;
+	background-color: #43baff;
+	color: #fff;
+	padding: 2px 20px;
+	padding-top: 5px;
+}
+.nav-item.responsive{
+	display: none;
+}
+.wrap-table{
+	width: 100%;
+	height: 80vh;
+	position: relative;
+	overflow-y: auto;
+}
+
+@media screen and (max-height: 600px){
+	.nav-link{
+		border-radius: 1px;
+		margin-top: 1px;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.nav-item.responsive{
+		display: block;
+	}
+	.container.auth{
+		padding: 10px;
+	}
+	.container.app{
+		padding: 0;
+		margin: 0;
+	}
+	.container.topnav{
+		padding: 5px;
+	}
+	.navbar{
+		position: relative;
+	}
+	.container.page{
+		padding: 15px;
+	}
+	.sidenav{
+		display: none;
+	}
+	.wrap-table{
+		height: auto;
+		overflow-x: auto;
+	}
+}
